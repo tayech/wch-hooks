@@ -26,19 +26,19 @@ const AddMovies= ({AddMovie})=> {
             
             <h2>Image</h2>
             <input placeholder="image" className="inputForm"
-            onChange={handleChange}></input>
+            onChange={handleChange} name="image"></input>
             <h2>Title</h2>
             <input placeholder="title" className="inputForm"
-            onChange={handleChange}></input>
+            onChange={handleChange} name="title"></input>
             <h2>Date</h2>
             <input placeholder="date" className="inputForm"
-            onChange={handleChange}></input>
+            onChange={handleChange} name="date"></input>
             <h2>Raiting</h2>
             <input placeholder="raiting" className="inputForm"
-            onChange={handleChange}></input>
+            onChange={handleChange} name="raiting"></input>
             <h2>Description</h2>
             <input placeholder="description" className="inputForm"
-            onChange={handleChange}></input>
+            onChange={handleChange} name="description"></input>
          
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
