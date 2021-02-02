@@ -3,7 +3,7 @@ import  AddMovies  from './Form/AddMovies'
 import Movielist from './MovieList'
 const  Main =({movies,AddMovie})=> {
     return (
-        <div>
+        <div style={{marginTop:"60px"}}>
          <Movielist movies={movies}/> 
           <AddMovies AddMovie={AddMovie}/> 
         </div>
